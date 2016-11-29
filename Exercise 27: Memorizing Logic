@@ -1,0 +1,20 @@
+The Truth Terms:
+a. and:
+      1. True and True (True)
+      2. True and False (False)
+      3. False and True (False)
+      4. False and False (False)
+b. or:
+     1. True or True (True)
+     2. True or False (True)
+     3. False or True (True)
+     4. False or False (False)
+c. not :
+       1. Not False (True)
+       2. Not True (False)
+d. != (not equal)
+e. == (equal)
+f. >=
+g. <=
+h. True 
+i. False
