@@ -1,0 +1,17 @@
+// some symbols that i don't know:
+
+class: define a class          class Person(Object)
+continue: don't process more of the loop, do it again         
+del: delete from dictionary          del X[Y]
+global: declare that you want a global variable          global X
+
+\\: balckslash 
+\': single-quote
+\": double-quote
+\a: bell
+\b: backspace
+\f: formfeed
+\n: newline
+\r: carriage 
+\t: tab
+\v: vertical tab
