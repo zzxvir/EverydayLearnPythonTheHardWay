@@ -1,0 +1,3 @@
+// learn how to access elements in a list 
+/* ex. list = ["Aaron", "Jo"]
+       list[0] // get "Aaron"
