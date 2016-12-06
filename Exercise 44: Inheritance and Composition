@@ -1,0 +1,61 @@
+// Inheritance is used to indicate that one class will get most or all of its features rom a parent class.
+
+//1. Implicit Inheritance:
+class Parent(object):
+    def implicit(self):
+        print "PARENT implicit()"
+
+class Child(Parent):
+    pass
+
+dad = Parent()
+son = Child()
+
+dad.implicit()
+son.implicit()
+
+//PARENT override()
+//PARENT override()
+
+
+// 2. Override Explicitly 
+class Parent(object):
+    def override(self):
+        print "PARENT overrride()"
+
+class Child(Parent):
+    def override(self):
+        print "CHILD override()"
+
+dad = Parent()
+son = Child()
+
+dad.override()
+son.override()
+
+//PARENT override()
+//CHILD override()
+
+
+// 3. Alter Before or After:
+class Parent(object):
+    def altered(self):
+        print "PARENT altered()"
+
+class Child(Parent):
+    def altered(self):
+        print "CHILD, BEFORE PARENT altered()"
+        super(Child, self).altered() // get the Parent version to call
+        print "CHILD, AFTER PARENT altered()"
+
+dad = Parent()
+son = Child()
+
+dad.altered()
+son.altered()
+
+//PARENT altered()
+//CHILD, BEFORE PARENT altered()
+//PARENT altered()
+//CHILD, AFTER PARENT altered()
+
